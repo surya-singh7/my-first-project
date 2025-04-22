@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form with Krishna Background</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url(g4.jpg) no-repeat center center fixed;
+      img{}
+      background-size: cover;
+      /* background-position: top right;  */
+      font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+      background-color: rgba(74, 95, 17, 0.85);
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      text-align: center;
+      color: #3a3a3a;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: #5c8a8a;
+      color: white;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #3d6466;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Contact Form</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="message" placeholder="Your Message" required>
+      <input type="submit" value="Send">
+      <img src="" alt="">
+    </form>
+  </div>
+</body>
+</html>
